@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "http-digest"
-version = "1.2-1"
+version = "1.2.1-1"
 
 -- LuaDist source
 source = {
-  tag = "1.2-1",
+  tag = "1.2.1-1",
   url = "git://github.com/LuaDist-testing/http-digest.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/catwell/lua-http-digest.git",
---    branch = "v1.2",
+--    branch = "v1.2.1",
 -- }
 
 description = {
