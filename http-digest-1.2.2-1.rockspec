@@ -1,10 +1,18 @@
-package = "http-digest"
-version = "1.1-1"
+-- This file was automatically generated for the LuaDist project.
 
+package = "http-digest"
+version = "1.2.2-1"
+
+-- LuaDist source
 source = {
-    url = "git://github.com/catwell/lua-http-digest.git",
-    branch = "v1.1",
+  tag = "1.2.2-1",
+  url = "git://github.com/LuaDist-testing/http-digest.git"
 }
+-- Original source
+-- source = {
+--     url = "git://github.com/catwell/lua-http-digest.git",
+--     branch = "v1.2.2",
+-- }
 
 description = {
     summary = "Client side HTTP Digest Authentication",
@@ -24,7 +32,7 @@ dependencies = {
 }
 
 build = {
-   type = "none",
-   install = { lua = { ["http-digest"] = "http-digest.lua" } },
-   copy_directories = {},
+    type = "none",
+    install = { lua = { ["http-digest"] = "http-digest.lua" } },
+    copy_directories = {},
 }

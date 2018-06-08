@@ -1,9 +1,9 @@
 package = "http-digest"
-version = "1.1-1"
+version = "1.2.2-1"
 
 source = {
     url = "git://github.com/catwell/lua-http-digest.git",
-    branch = "v1.1",
+    branch = "v1.2.2",
 }
 
 description = {
@@ -24,7 +24,7 @@ dependencies = {
 }
 
 build = {
-   type = "none",
-   install = { lua = { ["http-digest"] = "http-digest.lua" } },
-   copy_directories = {},
+    type = "none",
+    install = { lua = { ["http-digest"] = "http-digest.lua" } },
+    copy_directories = {},
 }
